@@ -1,0 +1,22 @@
+.NavWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6e4f23;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.Logo img {
+  width: 80px;
+}
+
+.Logo h4 {
+  margin-left: -20px;
+  margin-top: 15px;
+  font-family: spring;
+}

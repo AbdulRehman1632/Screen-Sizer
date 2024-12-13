@@ -1,0 +1,20 @@
+@font-face {
+    font-family:spring;
+    src: url(../public/assets/fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+@font-face {
+    font-family:satoshi;
+    src: url(../public/assets/fonts/Satoshi-Medium.otf);
+}
+
+*{
+    font-family: satoshi;
+
+}
+
+body{
+    background-color: #f6ca62 !important;
+
+}
+

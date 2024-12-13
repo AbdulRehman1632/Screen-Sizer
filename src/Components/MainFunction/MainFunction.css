@@ -1,0 +1,91 @@
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+    45deg,
+    #d5aa52,
+    #79572b,
+    #936c35,
+    #b28942,
+    #f6ca62,
+    #f6ca62,
+    #b28942,
+    #936c35,
+    #d5aa52,
+    #79572b
+  );
+  padding: 10px;
+}
+
+.contents h1 {
+  font-family: spring;
+  font-size: 3em;
+
+  color: black;
+}
+
+.dimensionWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dimensions img {
+  margin-top: -120px;
+  mix-blend-mode: hard-light;
+}
+
+.dimensionContent h2 {
+  color: black;
+}
+
+.dimensionWrapper h1 {
+  margin-top: -100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  font-size: 4em;
+  border-radius: 5px;
+  font-weight: 800;
+  background-color: #6e4f23;
+
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .contents {
+    text-align: center;
+  }
+  .dimensions img {
+    margin-top: -30px;
+    width: 100%;
+  }
+
+  .dimensionWrapper h1 {
+    margin-top: -20px;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .contents {
+    text-align: center;
+  }
+  .dimensions img {
+    margin-top: -30px;
+    width: 100%;
+  }
+
+  .dimensionWrapper h1 {
+    margin-top: -20px;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,41 @@
+.contentWrapper {
+  background-color: #f6ca62;
+}
+
+.heading h1 {
+  font-family: spring;
+  color: black;
+  padding: 10px;
+}
+
+.Text {
+  font-size: 1.2em;
+  color: black;
+  border-radius: 5px;
+  background-color: #79572b;
+}
+
+.Text p {
+  padding: 5px;
+}
+
+.Per p {
+  width: 20%;
+  background-color: #79572b !important;
+  font-size: 1.2em;
+  color: black;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .Per p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .Per p {
+    width: 50%;
+  }
+}
